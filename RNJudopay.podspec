@@ -15,5 +15,5 @@ Pod::Spec.new do |s|
   s.source_files = "ios/**/*.{h,m}"
   s.requires_arc = true
   s.dependency "React"
-  s.dependency "JudoKitObjC", '~> 10.0'
+  s.dependency "JudoKitObjC", :git => 'https://github.com/radhakrishnant2s/JudoKitObjC.git', :branch => 'master'
 end
