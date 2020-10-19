@@ -15,5 +15,5 @@ Pod::Spec.new do |s|
   s.source_files = "ios/**/*.{h,m}"
   s.requires_arc = true
   s.dependency "React"
- s.dependency "JudoKitObjC", '~> 10.0.0.1'
+ s.dependency "FHJudoKitObjC", '~> 10.0'
 end
